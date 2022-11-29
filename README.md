@@ -71,5 +71,36 @@ display: inline-block	/*转换成行内块*/
 首行缩进：text-indent: 30px;
 文本水平对齐：text-align:left;	/*left right center*/
 文本装饰：text-decoration: line-through;			/*默认值：none 删除线：line-through 下划线：underline*/
+显示光标类型： cursor: pointer;	/*显示小手*/
 ```
 
+## 列表样式
+
+```css
+列表样式：list=style:none   /*去掉列表样式*/
+单行文字溢出：
+	voerflow: hidden;	/*溢出隐藏*/
+	white-space: nowrap;	/*不换行*/
+	text-overflow: ellipsis; /*文本溢出显示...*/
+多行文字溢出：
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	voerflow: hidden;	/*溢出隐藏*/
+```
+
+## 背景图样式
+
+```css
+background: url('') no-repeat center;  /*图片居中不重复简写*/
+background-repeat: repeat-x;	/*repeat-x:横向平铺 repeat-y:纵向 no-repeat:不重复*/
+background-position: x y;	/*背景图元素起始位置; 如果之设置x方向，y默认为center*/
+background-size: 关键字、百分比、数字;
+	1、关键字：
+		图片大于盒子尺寸=》缩小（contain）
+		图片小于盒子尺寸=》放大（cover）
+	2、百分比： x y
+		只设置了x方向，系统会按照比例自动算y值
+```
+
+## 盒模型
