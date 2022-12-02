@@ -77,7 +77,7 @@ display: inline-block	/*转换成行内块*/
 ## 列表样式
 
 ```css
-列表样式：list=style:none   /*去掉列表样式*/
+列表样式：list-style:none   /*去掉列表样式*/
 单行文字溢出：
 	voerflow: hidden;	/*溢出隐藏*/
 	white-space: nowrap;	/*不换行*/
@@ -104,3 +104,5 @@ background-size: 关键字、百分比、数字;
 ```
 
 ## 盒模型
+
+和模型
